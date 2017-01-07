@@ -1,0 +1,10 @@
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe.config
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csprojResolveAssemblyReference.cache
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.pdb
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.dll
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.xml
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.exe
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
+c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
