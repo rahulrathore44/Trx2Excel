@@ -15,6 +15,9 @@ namespace Trx2Excel.Setting
         public const string StackTrace = "ErrorInfo";
         public const string TestName = "testName";
         public const string Outcome = "outcome";
+        public const string UnitTest = "UnitTest";
+        public const string TestId = "testId";
+        public const string ClassName = "className";
 
 
     }

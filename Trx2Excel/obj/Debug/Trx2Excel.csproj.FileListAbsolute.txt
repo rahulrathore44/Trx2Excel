@@ -8,3 +8,13 @@ c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\obj\Deb
 c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb
 c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
 c:\users\rahul\documents\visual studio 2015\Projects\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe.config
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.exe
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.pdb
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.dll
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.xml
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
+G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csprojResolveAssemblyReference.cache
