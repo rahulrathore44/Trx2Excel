@@ -14,7 +14,7 @@ To use the application
 
 `Trx2Excel.exe "F:\TrxFiles\SeleniumResult.trx" "D:\Reports\SeleniumExcelRep.xlsx"`
 
-### Excel Spreadsheet
+### Report
 
 ![Trx file]
 (https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Trx.PNG)
