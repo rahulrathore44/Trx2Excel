@@ -17,20 +17,16 @@ To use the application
 ### Report
 
 
-![Trx file]
-(https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Trx.PNG)
+![Trx file](https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Trx.PNG)
 
 
-![Cmd file]
-(https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Capture.PNG)
+![Cmd file](https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Capture.PNG)
 
 
-![Excel Spreadsheet]
-(https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Excel1.PNG)
+![Excel Spreadsheet](https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Excel1.PNG)
 
 
-![Excel Charts]
-(https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Excel2.PNG)
+![Excel Charts](https://github.com/rahulrathore44/Trx2Excel/blob/master/Trx2Excel/Srcshots/Excel2.PNG)
 
 
 
