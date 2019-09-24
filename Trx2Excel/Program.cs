@@ -15,7 +15,7 @@ namespace Trx2Excel
         {
             if (args == null || args.Length < 2)
                throw new Exception("Illegal Number of Argument");
-            
+
             var reader = new TrxReader(args[0]);
             Console.WriteLine("[INFO] : Reading the Trx file : {0}", args[0]);
             var resultList = reader.GetTestResults();

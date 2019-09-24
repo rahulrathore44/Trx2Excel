@@ -18,3 +18,14 @@ G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
 G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.xml
 G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
 G:\AutomationWorkspace\Git-Hub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csprojResolveAssemblyReference.cache
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe.config
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.pdb
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.dll
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.xml
+C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
+C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CopyComplete
+C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.exe
+C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb
+C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csprojAssemblyReference.cache
