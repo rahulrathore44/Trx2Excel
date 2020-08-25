@@ -12,7 +12,7 @@ To use the application
 
 ### Video Tutorial
 
-Visual Studio TRX file to Excel Report Generator : https://youtu.be/49OxAGZBHgc
+Visual Studio TRX file to Excel Report Generator : https://www.youtube.com/watch?v=49OxAGZBHgc&list=PLlsKgYi2Lw72Glr4QeuN0WZjuOgdzdAVO&index=4
 
 ### To see this whole thing running simply checkout this project, build it and run this command:
 
