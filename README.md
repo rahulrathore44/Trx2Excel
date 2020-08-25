@@ -10,6 +10,10 @@ To use the application
 	Trx2Excel.exe <Trx result file location> <Excel file spreadsheet location>
 ```
 
+### Video Tutorial
+
+Visual Studio TRX file to Excel Report Generator : https://youtu.be/49OxAGZBHgc
+
 ### To see this whole thing running simply checkout this project, build it and run this command:
 
 `Trx2Excel.exe "F:\TrxFiles\SeleniumResult.trx" "D:\Reports\SeleniumExcelRep.xlsx"`
