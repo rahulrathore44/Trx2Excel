@@ -11,8 +11,7 @@ namespace Trx2Excel.Model
         public string TestName { get; set; }
         public string Outcome { get; set; }
         public string Message { get; set; }
-        public string StrackTrace { get; set; }
+        public string StackTrace { get; set; }
         public string NameSpace { get; set; }
-
     }
 }

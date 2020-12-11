@@ -77,7 +77,7 @@ namespace Trx2Excel.ExcelUtils
                     Color.Red :
                     Color.ForestGreen);
                 sheet.Cells[i, 4].Value = result.Message;
-                sheet.Cells[i, 5].Value = result.StrackTrace;
+                sheet.Cells[i, 5].Value = result.StackTrace;
                 i++;
             }
         }
