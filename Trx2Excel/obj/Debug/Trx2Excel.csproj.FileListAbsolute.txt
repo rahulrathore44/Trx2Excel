@@ -25,8 +25,7 @@ C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.dll
 C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
 C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.xml
 C:\Data\GitHub\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
-C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csprojAssemblyReference.cache
+C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CoreCompileInputs.cache
 C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CopyComplete
 C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.exe
 C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb
-C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CoreCompileInputs.cache
