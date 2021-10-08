@@ -20,11 +20,49 @@ namespace UnitTestProject.UnitTests
             string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var fileLocation = Path.Combine(assemblyFolder, "UnitTests", "MSTestSampleResult.trx");
             var excelLocation = Path.Combine(assemblyFolder, "UnitTests", "MSTestSampleResult.xlsx");
-            var reader = new TrxReader(fileLocation);
-            var resultList = reader.GetTestResults();
-            var excelWriter = new ExcelWriter(excelLocation);
-            excelWriter.WriteToExcel(resultList);
-            Assert.IsTrue(File.Exists(excelLocation), "Fail to create Excel File");
+
+            try
+            {
+                if(File.Exists(excelLocation))
+                    File.Delete(excelLocation);
+
+                var reader = new TrxReader(fileLocation);
+                var resultList = reader.GetTestResults();
+                var excelWriter = new ExcelWriter(excelLocation);
+                excelWriter.WriteToExcel(resultList);
+                Assert.IsTrue(File.Exists(excelLocation), "Fail to create Excel File");
+            }catch(Exception e)
+            {
+                Assert.Fail(e.Message);
+            }
+            
+
+        }
+
+        [TestMethod]
+        public void TestExcelFileShouldGetCreated_when_packagename_is_long()
+        {
+            string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var fileLocation = Path.Combine(assemblyFolder, "UnitTests", "MSTestSampleResultTwo.trx");
+            var excelLocation = Path.Combine(assemblyFolder, "UnitTests", "MSTestSampleResultTwo.xlsx");
+
+            try
+            {
+                if (File.Exists(excelLocation))
+                    File.Delete(excelLocation);
+
+                var reader = new TrxReader(fileLocation);
+                var resultList = reader.GetTestResults();
+                var excelWriter = new ExcelWriter(excelLocation);
+                excelWriter.WriteToExcel(resultList);
+                Assert.IsTrue(File.Exists(excelLocation), "Fail to create Excel File");
+            }
+            catch (Exception e)
+            {
+                Assert.Fail(e.Message);
+            }
+
+
         }
     }
 }

@@ -54,6 +54,7 @@
     <Compile Include="UnitTests\TestExcelGenerate.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="UnitTests\MSTestSampleResult.trx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

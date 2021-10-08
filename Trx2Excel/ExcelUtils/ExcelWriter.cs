@@ -77,7 +77,9 @@ namespace Trx2Excel.ExcelUtils
                     Color.Red :
                     Color.ForestGreen);
                 sheet.Cells[i, 4].Value = result.Message;
+                sheet.Cells[i, 4].AutoFitColumns();
                 sheet.Cells[i, 5].Value = result.StackTrace;
+                sheet.Cells[i, 5].AutoFitColumns();
                 i++;
             }
         }
