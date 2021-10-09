@@ -32,3 +32,6 @@
 
 TestResults/
 packages/
+.vs/
+bin/Debug/
+obj/Debug/
