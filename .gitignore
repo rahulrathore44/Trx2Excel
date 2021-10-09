@@ -33,5 +33,12 @@
 TestResults/
 packages/
 .vs/
-bin/Debug/
-obj/Debug/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
