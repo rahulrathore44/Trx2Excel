@@ -11,8 +11,8 @@ namespace Trx2Excel.Setting
         public const string UnitTestResult = "UnitTestResult";
         public const string Output = "Output";
         public const string ErrorInfo = "ErrorInfo";
-        public const string Message = "Output";
-        public const string StackTrace = "ErrorInfo";
+        public const string Message = "Message";
+        public const string StackTrace = "StackTrace";
         public const string TestName = "testName";
         public const string Outcome = "outcome";
         public const string UnitTest = "UnitTest";

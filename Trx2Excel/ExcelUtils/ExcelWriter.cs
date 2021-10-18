@@ -51,37 +51,40 @@ namespace Trx2Excel.ExcelUtils
 
             using (var package = new ExcelPackage(new System.IO.FileInfo(FileName)))
             {
-                foreach (string nameSpace in filteredData.Keys)
-                    AddSheetToExcel(filteredData, package, nameSpace);
+                var sheet = package.Workbook.Worksheets.Add("TestResult");
+                //foreach (string nameSpace in filteredData.Keys)
+                AddSheetToExcel(filteredData, sheet);
                 package.Save();
             }
-            
+
         }
 
-        private void AddSheetToExcel(Dictionary<string, List<UnitTestResult>> filteredData, ExcelPackage package, string nameSpace)
+        private void AddSheetToExcel(Dictionary<string, List<UnitTestResult>> filteredData, ExcelWorksheet sheet)
         {
-            var sheet = package.Workbook.Worksheets.Add(nameSpace);
+
             sheet = CreateHeader(sheet);
             var i = 2;
-            foreach (var result in filteredData[nameSpace])
+            foreach (string nameSpace in filteredData.Keys)
             {
-                sheet.Cells[i, 1].Value = result.TestName;
-                sheet.Cells[i, 1].AutoFitColumns();
-                sheet.Cells[i, 2].Value = result.Outcome;
-                sheet.Cells[i, 2].AutoFitColumns();
-                sheet.Cells[i, 3].Value = result.NameSpace;
-                sheet.Cells[i, 3].AutoFitColumns();
-                sheet.Cells[i, 2].Style.Fill.PatternType = ExcelFillStyle.Solid;
-                sheet.Cells[i, 2].Style.Fill.BackgroundColor.SetColor(
-                    result.Outcome.Equals(TestOutcome.Failed.ToString(), StringComparison.OrdinalIgnoreCase) ?
-                    Color.Red :
-                    Color.ForestGreen);
-                sheet.Cells[i, 4].Value = result.Message;
-                sheet.Cells[i, 4].AutoFitColumns();
-                sheet.Cells[i, 5].Value = result.StackTrace;
-                sheet.Cells[i, 5].AutoFitColumns();
-                i++;
+                foreach (var result in filteredData[nameSpace])
+                {
+                    sheet.Cells[i, 1].Value = result.TestName;
+                    sheet.Cells[i, 1].AutoFitColumns();
+                    sheet.Cells[i, 2].Value = result.Outcome;
+                    sheet.Cells[i, 2].AutoFitColumns();
+                    sheet.Cells[i, 3].Value = result.NameSpace;
+                    sheet.Cells[i, 3].AutoFitColumns();
+                    sheet.Cells[i, 2].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                    sheet.Cells[i, 2].Style.Fill.BackgroundColor.SetColor(
+                        result.Outcome.Equals(TestOutcome.Failed.ToString(), StringComparison.OrdinalIgnoreCase) ?
+                        Color.Red :
+                        Color.ForestGreen);
+                    sheet.Cells[i, 4].Value = result.Message;
+                    sheet.Cells[i, 5].Value = result.StackTrace;
+                    i++;
+                }
             }
+
         }
 
         public void AddChart(int pass, int fail, int skip)
@@ -91,7 +94,7 @@ namespace Trx2Excel.ExcelUtils
                 var sheet = package.Workbook.Worksheets.Add("Result Chart");
                 var chart = sheet.Drawings.AddChart("Result Chart", eChartType.Pie);
                 var barChart = sheet.Drawings.AddChart("Result Bar Chart", eChartType.BarStacked);
-                
+
                 AddDataToSheet(pass, fail, skip, sheet);
 
                 chart.Title.Text = "Test Result Pie Chart";
@@ -126,7 +129,7 @@ namespace Trx2Excel.ExcelUtils
 
         public ExcelWorksheet CreateHeader(ExcelWorksheet sheet)
         {
-            string[] header = {"Test Name", "Status", "Name Space","Exception Message", "Stack Trace"};
+            string[] header = { "Test Name", "Status", "Name Space", "Exception Message", "Stack Trace" };
             for (var i = 0; i < header.Length; i++)
             {
                 sheet.Cells[1, i + 1].Value = header[i];
