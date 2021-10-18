@@ -56,6 +56,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="UnitTests\MSTestResultUnkonwOutcome.trx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="UnitTests\MSTestSampleResult.trx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

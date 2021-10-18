@@ -50,7 +50,7 @@ namespace Trx2Excel.TrxReaderUtil
                     var output = node.ChildNodes[GetNodeIndex(node, NodeName.Output)];
                     var errorInfo = output.ChildNodes[GetNodeIndex(output, NodeName.ErrorInfo)];
                     result.Message = errorInfo.ChildNodes[GetNodeIndex(errorInfo, NodeName.Message)]?.InnerText;
-                    result.StackTrace = errorInfo.ChildNodes[GetNodeIndex(node, NodeName.StackTrace)]?.InnerText;
+                    result.StackTrace = errorInfo.ChildNodes[GetNodeIndex(errorInfo, NodeName.StackTrace)]?.InnerText;
                     FailCount++;
                     break;
                 case TestOutcome.Passed:
