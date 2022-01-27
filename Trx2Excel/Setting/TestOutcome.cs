@@ -10,6 +10,7 @@ namespace Trx2Excel.Setting
     {
         Passed,
         Failed,
-        Skipped
+        Skipped,
+        NotExecuted
     }
 }

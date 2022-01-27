@@ -15,7 +15,7 @@ namespace Trx2Excel.ExcelUtils
         private string FileName { get; set; }
         public ExcelWriter(string fileName)
         {
-            FileName = fileName;
+            FileName = "C:\\Demo\\sample.xlsx";
         }
 
         /// <summary>

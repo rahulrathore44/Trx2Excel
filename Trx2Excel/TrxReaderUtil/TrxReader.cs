@@ -17,7 +17,7 @@ namespace Trx2Excel.TrxReaderUtil
         public int SkipCount { get; set; }
         public TrxReader(string fileName)
         {
-            FileName = fileName;
+            FileName = "C:\\Demo\\sample.trx";
         }
 
         public List<UnitTestResult> GetTestResults()

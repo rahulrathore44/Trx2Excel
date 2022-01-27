@@ -29,3 +29,15 @@ C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CoreCompileInputs.
 C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CopyComplete
 C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.exe
 C:\Data\GitHub\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe.config
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.exe
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\Trx2Excel.pdb
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.dll
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\log4net.dll
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\EPPlus.xml
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\bin\Debug\log4net.xml
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.AssemblyReference.cache
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CoreCompileInputs.cache
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.csproj.CopyComplete
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.exe
+C:\Users\nxb0929\OneDrive - P2ES Holdings, Inc\Desktop\Test\TRXTOEXCEL\Trx2Excel\Trx2Excel\obj\Debug\Trx2Excel.pdb

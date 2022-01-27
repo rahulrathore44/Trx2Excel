@@ -22,11 +22,16 @@ namespace Trx2Excel
 
             var reader = new TrxReader(args[0]);
             Console.WriteLine("[INFO] : Reading the Trx file : {0}", args[0]);
+            
             var resultList = reader.GetTestResults();
             Console.WriteLine("[INFO] : Getting TestResult from Trx file : {0}", args[0]);
+            
             var excelWriter = new ExcelWriter(args[1]);
+            
             excelWriter.WriteToExcel(resultList);
             Console.WriteLine("[INFO] : Writing to Excel File : {0}", args[1]);
+           
+            
             excelWriter.AddChart(reader.PassCount,reader.FailCount,reader.SkipCount);
             Console.WriteLine("[INFO] : Generating charts : {0}", args[1]);
             Console.WriteLine("[INFO] : Output File : {0}", args[1]);
